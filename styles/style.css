@@ -45,6 +45,48 @@
   /*background-image: url('../images/logo_place_header.svg');*/
 }
 
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 730px;
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+
+}
+
+.title_place_header {
+
+}
+
+.subtitle {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  bottom: 30px;
+  left: 64px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.subtitle_place_header {
+  width: 388px;
+}
+
+.main-illustration {
+  width: 765px;
+  height: 608px;
+}
+
+.square-pic {
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+}
+
 .page_border{
   border: 1px solid #f00;
 }
