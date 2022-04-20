@@ -38,9 +38,11 @@
 
 .logo_place_header {
   position: absolute;
+  z-index: 1;
   top: 30px;
   left: 64px;
-  background-image: url('../images/logo_place_header.svg');
+  /*сначала хотел ч/з фоновое изображение подключить лого, решил ч/з img в html*/
+  /*background-image: url('../images/logo_place_header.svg');*/
 }
 
 .page_border{
