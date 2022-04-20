@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f2f2f2;
 }
 
 .header {
@@ -30,8 +31,16 @@
   margin-top: 80px;
 }
 
-.title {
+.logo {
+  width: 228px;
+  height: 32px;
+}
 
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  background-image: url('../images/logo_place_header.svg');
 }
 
 .page_border{
