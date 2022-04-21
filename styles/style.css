@@ -11,6 +11,10 @@
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: flex-start;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -18,10 +22,10 @@
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+/*.header__square-pic {
   height: 568px;
   width: 568px;
-}
+}*/
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -36,52 +40,52 @@
   height: 32px;
 }
 
-.logo_place_header {
+.header__logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 1;
+  z-index: 2;
   /*сначала хотел ч/з фоновое изображение подключить лого, решил ч/з img в html*/
   /*background-image: url('../images/logo_place_header.svg');*/
 }
 
 .title {
-  display: flex;
   width: 730px;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
-
+  text-align: left;
 }
 
-.title_place_header {
-  flex-direction: column;
+.header__title_place {
+  position: relative;
+  align-self: center;
+  display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 
 .subtitle {
-  display: inline-block;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
   width: 388px;
 }
 
-.subtitle_place_header {
+.header__subtitle_place {
   position: absolute;
   bottom: 30px;
   left: 64px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .main-illustration {
-  display: flex;
   width: 765px;
   height: 608px;
 }
 
-.main-illustration_header {
+.header__main-illustration {
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -94,7 +98,7 @@
   background-color: #2f80ed;
 }
 
-.square-pic_header {
+.header__square-pic  {
   position: absolute;
   top: 64px;
   right: 0px;
