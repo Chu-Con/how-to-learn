@@ -38,18 +38,15 @@
 
 .logo_place_header {
   position: absolute;
-  z-index: 1;
   top: 30px;
   left: 64px;
+  z-index: 1;
   /*сначала хотел ч/з фоновое изображение подключить лого, решил ч/з img в html*/
   /*background-image: url('../images/logo_place_header.svg');*/
 }
 
 .title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 730px;
   font-size: 102px;
   font-weight: bold;
@@ -58,33 +55,50 @@
 }
 
 .title_place_header {
-
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .subtitle {
   display: inline-block;
-  position: absolute;
-  z-index: 1;
-  bottom: 30px;
-  left: 64px;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-}
-
-.subtitle_place_header {
   width: 388px;
 }
 
+.subtitle_place_header {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
 .main-illustration {
+  display: flex;
   width: 765px;
   height: 608px;
+}
+
+.main-illustration_header {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
 }
 
 .square-pic {
   width: 568px;
   height: 568px;
   background-color: #2f80ed;
+}
+
+.square-pic_header {
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  z-index: 0;
 }
 
 .page_border{
