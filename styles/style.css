@@ -13,7 +13,7 @@
 .header {
   position: relative;
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -57,13 +57,20 @@
 }
 
 .header__title_place {
-  display: inline-block;
+  /* display: inline-block; */
   /* overflow: hidden; */
+  display: flex;
+  align-items: center;
   position: relative;
   left: 64px;
-  align-self: center;
+  /* align-self: center; */
   z-index: 2;
+  /* text-align: justify; */
   /* white-space: pre-wrap; */
+}
+
+.header__title_h1 {
+
 }
 
 .subtitle {
@@ -74,13 +81,23 @@
 }
 
 .header__subtitle_place {
+  /* margin: 0; */
+  /* padding: 0; */
   position: absolute;
+  /* display: flex; */
+  /* flex-flow: column wrap; */
+  /* display: inline-block; */
+  /* сомневаюсь насчет inline-block */
   bottom: 30px;
   left: 64px;
   z-index: 2;
+  text-align: justify;
+  /* white-space: pre-wrap; */
 }
 
 .link {
+  display: inline;
+  /* сомневаюсь насчет inline */
   color: #2f80ed;
   position: absolute;
   bottom: 30px;
@@ -102,6 +119,8 @@
   bottom: 0px;
   right: 0px;
   z-index: 1;
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
   /* object-fit: cover; */
   /* object-position: 50% 50%; */
   /* overflow: auto; */
