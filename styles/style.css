@@ -3,7 +3,7 @@
   max-width: 1600px;
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 
 }
 
@@ -19,12 +19,6 @@
   /* flex-direction: column; */
   /* можно закомментить align-items и раскомментить 2 строчки выше, и визуально получится тот же результат*/
 }
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-/*.header__square-pic {
-  height: 568px;
-  width: 568px;
-}*/
 
 /* и элемента с модификатором вида ключ-значение */
 /* .table__cell_theme_dark { */
@@ -50,11 +44,11 @@
   width: 730px;
   font-size: 102px;
   font-weight: bold;
+  /* font-weight: 700; */
   line-height: 96px;
 }
 
 .header__title_place {
-
   align-items: center;
   position: relative;
   left: 64px;
@@ -64,6 +58,7 @@
 .subtitle {
   font-size: 18px;
   font-weight: normal;
+  /* font-weight: 400; */
   line-height: 25px;
   width: 388px;
 }
@@ -112,3 +107,56 @@
   right: 0px;
   z-index: 0;
 }
+
+
+.content {
+
+}
+
+.discription {
+
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__margins {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+.two-columns__brief {
+  width: 175px;
+
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+
+}
+
+.two-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: baseline; */
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
