@@ -7,6 +7,9 @@
 
 }
 
+
+/* Х-Э-Д-Е-Р */
+
 .header {
   position: relative;
   display: flex;
@@ -19,14 +22,6 @@
   /* flex-direction: column; */
   /* можно закомментить align-items и раскомментить 2 строчки выше, и визуально получится тот же результат*/
 }
-
-/* и элемента с модификатором вида ключ-значение */
-/* .table__cell_theme_dark { */
-  /* width: 200px; */
-  /* color: white; */
-  /* margin-right: 0; */
-  /* margin-top: 80px; */
-/* } */
 
 .logo {
   width: 228px;
@@ -108,6 +103,8 @@
 
 
 
+/* Д-Е-С-К-Р-И-П-Ш-Н  */
+
 .content {
 
 }
@@ -169,6 +166,10 @@
   margin-bottom: 0;
 }
 
+
+
+/* Д-И-Г-И-Т-С */
+
 .digits {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -207,7 +208,7 @@
   display: flex;
   flex-direction: column;
   /* justify-content: flex-start; */
-  /* align-items: flex-start; */
+  /* align-items: flex-stvart; */
   width: 250px;
 }
 
@@ -226,6 +227,8 @@
 
 
 
+/* Ф-Е-Й-Н-М-А-Н */
+
 .feynman {
   min-height: 890px;
   position: relative;
@@ -234,7 +237,6 @@
   background-color: #f2f2f2;
   /* background-image: url(../images/feynman.png); */
   /* background-repeat: no-repeat; */
-
 }
 
 .feynman__title {
@@ -254,6 +256,7 @@
   font-weight: normal;
   line-height: 51px;
   text-align: center;
+  align-self: center;
   z-index: 1;
 }
 
@@ -280,4 +283,51 @@
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
+}
+
+
+
+/* К-А-У-Ф-М-А-Н */
+
+.kaufman {
+  background-color: #1f1f1f;
+  margin: 0;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+/* .table__cell_theme_dark { */
+  /* width: 200px; */
+  /* color: white; */
+  /* margin-right: 0; */
+  /* margin-top: 80px; */
+/* } */
+
+.section-title_theme_dark {
+  color: #fff;
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
+}
+
+.table_theme_dark {
+  color: #fff;
+}
+
+.table__cell_theme_dark {
+
+}
+
+.table__heading_theme_dark {
+
+}
+
+.table__text_theme_dark {
+
+}
+
+.kaufman__triangle {
+
 }
