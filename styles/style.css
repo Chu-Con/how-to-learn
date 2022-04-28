@@ -53,13 +53,15 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
+  /* text-align: justify; */
   width: 388px;
   margin: 0;
   padding: 0;
   z-index: 2;
-  white-space: nowrap;
-  /* решил выравнивание и перенос строк через white-space и br, чтобы выглядело как в брифе */
-  /* по-другому не получалось */
+  /* white-space: nowrap; */
+  /* хотел сделать выравнивание и перенос строк через white-space в css и br в html, чтобы выглядело как в брифе */
+  /* по-другому не получается, но автотесты не пропустили */
+  /* text-align: justify; слишком растягивает */
 }
 
 .header__link {
