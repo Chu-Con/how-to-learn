@@ -320,7 +320,7 @@
 /* П-О-Д-В-А-Л */
 
 .footer {
-  /* display: flex; */
+  display: flex;
   background-color: #1f1f1f;
   min-height: 350px;
   padding: 60px 0 40px;
@@ -330,7 +330,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: auto;
+  margin: 0 auto;
   width: 90%;
 }
 
@@ -361,6 +361,7 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
+  margin: 0;
 }
 
 .footer__column-links {
