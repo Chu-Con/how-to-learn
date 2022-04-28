@@ -21,7 +21,6 @@
   background-color: #f2f2f2;
   /* justify-content: center; */
   /* flex-direction: column; */
-  /* можно закомментить align-items и раскомментить 2 строчки выше, и визуально получится тот же результат*/
 }
 
 .logo {
@@ -325,14 +324,15 @@
   display: flex;
   background-color: #1f1f1f;
   min-height: 350px;
-  padding: 60px 0 40px;
+  justify-content: center;
 }
 
 .footer__columns {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 60px 0 40px;
+  /* margin: 60px auto 40px; */
   width: 90%;
 }
 
@@ -356,11 +356,17 @@
   margin: 18px 0;
 }
 
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__column-heading {
   color: #fff;
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
+  margin: 0;
 }
 
 .footer__column-links {
@@ -377,20 +383,15 @@
   text-decoration: none;
 }
 
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
-}
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
 }
 
 /* К-О-Н-Е-Ц-!-!-! */
