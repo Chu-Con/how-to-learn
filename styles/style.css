@@ -4,8 +4,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
-  position: relative;
-
 }
 
 
@@ -36,13 +34,15 @@
 }
 
 .header__title {
-  position: relative;
-  left: 64px;
+  margin: 0;
+  /* display: flex; */
+  margin-left: 64px;
   width: 730px;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
-  align-items: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   z-index: 2;
 }
 
@@ -165,8 +165,9 @@
 }
 
 .section-subtitle {
+  margin: 0 auto;
+  /* margin со значениями 0 для top и right и auto для right и left считается обнулением с центрированием? */
   width: 60%;
-  margin: auto;
   text-align: center;
   font-size: 24px;
   font-weight: normal;
@@ -180,9 +181,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-  margin: auto;
+  margin: 0 auto;
+   /* margin со значениями 0 для top и right и auto для right и left считается обнулением с центрированием? */
   padding: 0;
-
+  list-style-type: none;
 }
 
 .table__cell {
@@ -312,11 +314,10 @@
   height: 877px;
   z-index: 0;
   color: #fff;
-  /* background-image: url(../images/kaufman-triangle.svg); */
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  /* background-size: cover; */
-
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
@@ -339,8 +340,13 @@
   width: 90%;
 }
 
-.footer__column_content_copyright {
+/* добавил класс с элементом footer__column и его селектор; теперь модификатор не сам по себе, а для элемента*/
+.footer__column {
   display: flex;
+}
+
+.footer__column_content_copyright {
+  /* display: flex; */
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
@@ -360,7 +366,7 @@
 }
 
 .footer__column_content_info {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
 }
 
@@ -376,6 +382,9 @@
   display: flex;
   flex-direction: column;
   margin: 20px 0 16px;
+  padding: 0;
+  list-style-type: none;
+
 }
 
 .footer__column-link {
@@ -387,7 +396,7 @@
 }
 
 .footer__column_content_social {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
 }
 
