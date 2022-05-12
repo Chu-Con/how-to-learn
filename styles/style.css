@@ -198,63 +198,13 @@
   line-height: 23px;
 }
 
-/* Д-И-Г-И-Т-С */
 
-.digits {
-  margin: 0;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
-.section-title {
-  width: 60%;
-  margin: 0 auto 20px;
-  text-align: center;
-  font-size: 60px;
-  font-weight: bold;
-  line-height: 1.15;
-}
+/* О-А-К-Л-И */
 
-.section-subtitle {
-  margin: 0 auto;
-  /* margin со значениями 0 для top и right и auto для right и left считается обнулением с центрированием? */
-  width: 60%;
-  text-align: center;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 34px;
-  z-index: 1;
-}
-
-.table {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
-  margin: 0 auto;
-  padding: 0;
-  list-style-type: none;
-}
-
-.table__cell {
-  margin: 60px 0 0;
-  width: 250px;
-  z-index: 1;
-}
-
-.table__heading {
-  margin: 0;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.15;
-}
-
-.table__text {
-  margin: 20px 0 0;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.2;
+.oakley {
+  padding-top: 160px;
+  background-color: #f2f2f2;
 }
 
 
@@ -312,6 +262,67 @@
   width: 867px;
   height: 637px;
   z-index: 0;
+}
+
+
+
+/* Д-И-Г-И-Т-С */
+
+.digits {
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-title {
+  width: 60%;
+  margin: 0 auto 20px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.section-subtitle {
+  margin: 0 auto;
+  /* margin со значениями 0 для top и right и auto для right и left считается обнулением с центрированием? */
+  width: 60%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  z-index: 1;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.table__cell {
+  margin: 60px 0 0;
+  width: 250px;
+  z-index: 1;
+}
+
+.table__heading {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.table__text {
+  margin: 20px 0 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
 }
 
 
