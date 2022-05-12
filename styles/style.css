@@ -147,6 +147,57 @@
 
 
 
+/* Т-Е-К-Н-И-К-С */
+.techniques {
+  width: 80%;
+  padding-top: 100px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 920px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+.cards__item {
+  width: 240px;
+  /* ширину вычислил сложением ширины 160px + отступов по 2*40px у cards__image = 240px*/
+  margin-top: 60px;
+  margin-right: 100px;
+}
+
+.cards__item:nth-of-type(3) {
+  margin-right: 0;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 0 40px;
+}
+
+.cards__title {
+  margin: 43px 0 16px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.cards__description {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+}
+
 /* Д-И-Г-И-Т-С */
 
 .digits {
@@ -182,7 +233,6 @@
   justify-content: space-between;
   width: 1100px;
   margin: 0 auto;
-   /* margin со значениями 0 для top и right и auto для right и left считается обнулением с центрированием? */
   padding: 0;
   list-style-type: none;
 }
