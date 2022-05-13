@@ -1,3 +1,13 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -91,6 +101,8 @@
   height: 568px;
   background-color: #2f80ed;
   z-index: 0;
+
+  animation: rotation 20s linear infinite;
 }
 
 
@@ -506,6 +518,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  animation: rotation 20s linear infinite;
 }
 
 
