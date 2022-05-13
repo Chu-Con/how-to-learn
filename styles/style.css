@@ -69,6 +69,11 @@
   color: #2f80ed;
 }
 
+.header__link:hover {
+  opacity: .8;
+  transition: opacity 0.1s ease;
+}
+
 .header__main-illustration {
   position: absolute;
   bottom: 0px;
@@ -280,6 +285,11 @@
   color: #2f80ed;
 }
 
+.feynman__link:hover {
+  opacity: .8;
+  transition: opacity 0.1s ease;
+}
+
 .feynman__portrait {
   position: absolute;
   left: 0;
@@ -437,6 +447,11 @@
   padding: 0;
 }
 
+.khan__buy-link:hover {
+  opacity: .8;
+  transition: opacity 0.1s ease;
+}
+
 
 
 /* К-А-У-Ф-М-А-Н */
@@ -518,6 +533,11 @@
   height: 38px;
 }
 
+.resources__link:hover {
+  opacity: .8;
+  transition: opacity 0.1s ease;
+}
+
 .resources__logo {
   margin: 0 auto;
 }
@@ -586,7 +606,6 @@
   margin: 20px 0 16px;
   padding: 0;
   list-style-type: none;
-
 }
 
 .footer__column-link {
@@ -595,6 +614,11 @@
   line-height: 30px;
   text-decoration: none;
   color: #fff;
+}
+
+.footer__column-link:hover {
+  opacity: .8;
+  transition: opacity 0.1s ease;
 }
 
 .footer__column_content_social {
