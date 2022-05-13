@@ -1,0 +1,10 @@
+.cards__item {
+  width: 240px;
+  /* ширину вычислил сложением ширины 160px + отступов по 2*40px у cards__image = 240px*/
+  margin-top: 60px;
+  margin-right: 100px;
+}
+
+.cards__item:nth-of-type(3) {
+  margin-right: 0;
+}
