@@ -328,6 +328,88 @@
 
 
 
+/* Х-А-Н */
+
+.khan {
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.khan__container {
+  width: 80%;
+  margin: auto;
+}
+
+.khan__author {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 42px;
+  margin: 0;
+  padding: 0;
+}
+
+.khan__title {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+}
+
+.khan__quote {
+  width: 790px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  margin: 50px 0 36px;
+  padding: 0;
+}
+
+.khan__quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+}
+
+.khan__quote-author-subline {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.15;
+  margin: 10px 0 68px;
+  padding: 0;
+}
+
+.khan__book-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: left top;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.khan__buy-link {
+  text-decoration: none;
+  color: #2f80ed;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 42px;
+  margin: 0 0 0 48px;
+  padding: 0;
+}
+
 /* К-А-У-Ф-М-А-Н */
 
 .kaufman {
