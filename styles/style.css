@@ -27,6 +27,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  overflow: hidden;
   /* justify-content: center; */
   /* flex-direction: column; */
 }
@@ -91,6 +92,7 @@
   width: 765px;
   height: 608px;
   z-index: 1;
+
 }
 
 .header__square-pic {
