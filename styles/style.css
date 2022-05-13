@@ -201,6 +201,26 @@
 
 
 
+/* В-И-Д-Е-О */
+
+.video {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto 0;
+}
+
+.video__iframes {
+  margin: 50px auto 0;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin: 0 20px 0 0;
+}
+
+
+
 /* О-А-К-Л-И */
 
 .oakley {
@@ -335,6 +355,7 @@
   display: flex;
   margin: 0;
   padding: 0;
+  background-color: #f2f2f2;
 }
 
 .khan__container {
@@ -409,6 +430,8 @@
   margin: 0 0 0 48px;
   padding: 0;
 }
+
+
 
 /* К-А-У-Ф-М-А-Н */
 
