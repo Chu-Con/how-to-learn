@@ -12,7 +12,6 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
@@ -28,8 +27,6 @@
   max-height: 756px;
   background-color: #f2f2f2;
   overflow: hidden;
-  /* justify-content: center; */
-  /* flex-direction: column; */
 }
 
 .logo {
@@ -46,14 +43,11 @@
 
 .header__title {
   margin: 0;
-  /* display: flex; */
   margin-left: 64px;
   width: 730px;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
-  /* align-items: center; */
-  /* justify-content: center; */
   z-index: 2;
 }
 
@@ -64,15 +58,10 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-  /* text-align: justify; */
   width: 388px;
   margin: 0;
   padding: 0;
   z-index: 2;
-  /* white-space: nowrap; */
-  /* хотел сделать выравнивание и перенос строк через white-space в css и br в html, чтобы выглядело как в брифе */
-  /* по-другому не получается, но автотесты не пропустили */
-  /* text-align: justify; слишком растягивает */
 }
 
 .header__link {
@@ -263,8 +252,6 @@
   flex-direction: column;
   min-height: 890px;
   background-color: #f2f2f2;
-  /* background-image: url(../images/feynman.png); */
-  /* background-repeat: no-repeat; */
 }
 
 .feynman__title {
@@ -336,7 +323,6 @@
 
 .section-subtitle {
   margin: 0 auto;
-  /* margin со значениями 0 для top и right и auto для right и left считается обнулением с центрированием? */
   width: 60%;
   text-align: center;
   font-size: 24px;
@@ -574,17 +560,14 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 60px 0 40px;
-  /* margin: 60px auto 40px; */
   width: 90%;
 }
 
-/* добавил класс с элементом footer__column и его селектор; теперь модификатор не сам по себе, а для элемента*/
 .footer__column {
   display: flex;
 }
 
 .footer__column_content_copyright {
-  /* display: flex; */
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
@@ -604,7 +587,6 @@
 }
 
 .footer__column_content_info {
-  /* display: flex; */
   flex-direction: column;
 }
 
@@ -638,7 +620,6 @@
 }
 
 .footer__column_content_social {
-  /* display: flex; */
   flex-direction: column;
 }
 
