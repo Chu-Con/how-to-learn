@@ -6,9 +6,10 @@
   line-height: 42px;
   margin: 0 0 0 48px;
   padding: 0;
+  align-self: flex-start;
+  transition: opacity 0.15s ease;
 }
 
 .khan__buy-link:hover {
-  opacity: .8;
-  transition: opacity 0.1s ease;
+  opacity: .7;
 }
